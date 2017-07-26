@@ -1,4 +1,4 @@
-# TOML parser and encoder library for Golang [![Build Status](https://travis-ci.org/naoina/toml.png?branch=master)](https://travis-ci.org/naoina/toml)
+# TOML parser and encoder library for Golang [![Build Status](https://travis-ci.org/lexical005/toml.png?branch=master)](https://travis-ci.org/lexical005/toml)
 
 [TOML](https://github.com/toml-lang/toml) parser and encoder library for [Golang](http://golang.org/).
 
@@ -6,7 +6,7 @@ This library is compatible with TOML version [v0.4.0](https://github.com/toml-la
 
 ## Installation
 
-    go get -u github.com/naoina/toml
+    go get -u github.com/lexical005/toml
 
 ## Usage
 
@@ -58,7 +58,7 @@ import (
     "os"
     "time"
 
-    "github.com/naoina/toml"
+    "github.com/lexical005/toml"
 )
 
 type tomlConfig struct {
@@ -373,7 +373,7 @@ Note: `encoding.TextUnmarshaler` and `encoding.TextMarshaler` should be preferre
 simple (scalar) values because they're also compatible with other formats like JSON or
 YAML.
 
-[See the UnmarshalerRec example](https://godoc.org/github.com/naoina/toml/#example_UnmarshalerRec).
+[See the UnmarshalerRec example](https://godoc.org/github.com/lexical005/toml/#example_UnmarshalerRec).
 
 ### Using the `toml.Unmarshaler` interface
 
@@ -381,11 +381,11 @@ If you want to deal with raw TOML syntax, use the `Unmarshaler` and `Marshaler`
 interfaces. Their input and output is raw TOML syntax. As such, these interfaces are
 useful if you want to handle TOML at the syntax level.
 
-[See the Unmarshaler example](https://godoc.org/github.com/naoina/toml/#example_Unmarshaler).
+[See the Unmarshaler example](https://godoc.org/github.com/lexical005/toml/#example_Unmarshaler).
 
 ## API documentation
 
-See [Godoc](http://godoc.org/github.com/naoina/toml).
+See [Godoc](http://godoc.org/github.com/lexical005/toml).
 
 ## License
 

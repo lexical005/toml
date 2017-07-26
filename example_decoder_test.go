@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/naoina/toml"
+	"github.com/lexical005/toml"
 )
 
 type Config struct {

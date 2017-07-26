@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	stringutil "github.com/naoina/go-stringutil"
-	"github.com/naoina/toml/ast"
+	stringutil "github.com/lexical005/go-stringutil"
+	"github.com/lexical005/toml/ast"
 )
 
 // Config contains options for encoding and decoding.

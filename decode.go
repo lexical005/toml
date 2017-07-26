@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/naoina/toml/ast"
+	"github.com/lexical005/toml/ast"
 )
 
 const (
